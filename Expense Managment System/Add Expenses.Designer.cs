@@ -179,7 +179,7 @@
             this.exDateDtp.Name = "exDateDtp";
             this.exDateDtp.Size = new System.Drawing.Size(282, 29);
             this.exDateDtp.TabIndex = 15;
-            this.exDateDtp.Value = new System.DateTime(2022, 6, 23, 21, 47, 11, 0);
+            this.exDateDtp.Value = new System.DateTime(2022, 6, 27, 12, 31, 44, 0);
             // 
             // label6
             // 
