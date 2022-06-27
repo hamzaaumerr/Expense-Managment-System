@@ -86,7 +86,7 @@
             this.logoutLbl.Location = new System.Drawing.Point(701, 32);
             this.logoutLbl.Name = "logoutLbl";
             this.logoutLbl.Size = new System.Drawing.Size(71, 21);
-            this.logoutLbl.TabIndex = 13;
+            this.logoutLbl.TabIndex = 3;
             this.logoutLbl.Text = "LOGOUT";
             this.logoutLbl.Click += new System.EventHandler(this.logoutLbl_Click);
             // 
@@ -98,7 +98,7 @@
             this.label3.Location = new System.Drawing.Point(612, 21);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 21);
-            this.label3.TabIndex = 12;
+            this.label3.TabIndex = 2;
             this.label3.Text = "Reports";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -110,7 +110,7 @@
             this.label2.Location = new System.Drawing.Point(414, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 21);
-            this.label2.TabIndex = 11;
+            this.label2.TabIndex = 1;
             this.label2.Text = "View Expenses";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -122,7 +122,7 @@
             this.label1.Location = new System.Drawing.Point(227, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 21);
-            this.label1.TabIndex = 5;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Add Expenses";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 

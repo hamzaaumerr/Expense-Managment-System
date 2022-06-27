@@ -99,7 +99,7 @@
             this.exNameTb.Location = new System.Drawing.Point(402, 88);
             this.exNameTb.Name = "exNameTb";
             this.exNameTb.Size = new System.Drawing.Size(282, 29);
-            this.exNameTb.TabIndex = 8;
+            this.exNameTb.TabIndex = 0;
             // 
             // exAmountTb
             // 
@@ -107,7 +107,7 @@
             this.exAmountTb.Location = new System.Drawing.Point(402, 166);
             this.exAmountTb.Name = "exAmountTb";
             this.exAmountTb.Size = new System.Drawing.Size(282, 29);
-            this.exAmountTb.TabIndex = 9;
+            this.exAmountTb.TabIndex = 1;
             // 
             // label2
             // 
@@ -168,7 +168,7 @@
             this.exCategoryCb.Location = new System.Drawing.Point(402, 236);
             this.exCategoryCb.Name = "exCategoryCb";
             this.exCategoryCb.Size = new System.Drawing.Size(282, 29);
-            this.exCategoryCb.TabIndex = 14;
+            this.exCategoryCb.TabIndex = 2;
             // 
             // exDateDtp
             // 
@@ -178,7 +178,7 @@
             this.exDateDtp.Location = new System.Drawing.Point(402, 304);
             this.exDateDtp.Name = "exDateDtp";
             this.exDateDtp.Size = new System.Drawing.Size(282, 29);
-            this.exDateDtp.TabIndex = 15;
+            this.exDateDtp.TabIndex = 3;
             this.exDateDtp.Value = new System.DateTime(2022, 6, 27, 12, 31, 44, 0);
             // 
             // label6
@@ -199,7 +199,7 @@
             this.exDescriptionTb.Multiline = true;
             this.exDescriptionTb.Name = "exDescriptionTb";
             this.exDescriptionTb.Size = new System.Drawing.Size(282, 114);
-            this.exDescriptionTb.TabIndex = 16;
+            this.exDescriptionTb.TabIndex = 4;
             // 
             // addExBtn
             // 
@@ -209,13 +209,14 @@
             this.addExBtn.Location = new System.Drawing.Point(318, 508);
             this.addExBtn.Name = "addExBtn";
             this.addExBtn.Size = new System.Drawing.Size(103, 31);
-            this.addExBtn.TabIndex = 18;
+            this.addExBtn.TabIndex = 5;
             this.addExBtn.Text = "Add Expense";
             this.addExBtn.UseVisualStyleBackColor = false;
             this.addExBtn.Click += new System.EventHandler(this.addExBtn_Click);
             // 
             // Add_Expenses
             // 
+            this.AcceptButton = this.addExBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

@@ -112,7 +112,7 @@
             this.exCategoryCb.Location = new System.Drawing.Point(151, 73);
             this.exCategoryCb.Name = "exCategoryCb";
             this.exCategoryCb.Size = new System.Drawing.Size(170, 29);
-            this.exCategoryCb.TabIndex = 33;
+            this.exCategoryCb.TabIndex = 0;
             this.exCategoryCb.SelectionChangeCommitted += new System.EventHandler(this.exCategoryCb_SelectionChangeCommitted);
             // 
             // label4
@@ -134,13 +134,14 @@
             this.resetBtn.Location = new System.Drawing.Point(340, 73);
             this.resetBtn.Name = "resetBtn";
             this.resetBtn.Size = new System.Drawing.Size(103, 29);
-            this.resetBtn.TabIndex = 34;
+            this.resetBtn.TabIndex = 1;
             this.resetBtn.Text = "Reset";
             this.resetBtn.UseVisualStyleBackColor = false;
             this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
             // 
             // View_Expenses
             // 
+            this.AcceptButton = this.resetBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

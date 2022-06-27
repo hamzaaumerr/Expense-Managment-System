@@ -94,7 +94,7 @@
             this.loginBtn.Location = new System.Drawing.Point(286, 409);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(103, 31);
-            this.loginBtn.TabIndex = 16;
+            this.loginBtn.TabIndex = 1;
             this.loginBtn.Text = "LOGIN";
             this.loginBtn.UseVisualStyleBackColor = false;
             this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
@@ -106,7 +106,7 @@
             this.passwordTb.Location = new System.Drawing.Point(224, 365);
             this.passwordTb.Name = "passwordTb";
             this.passwordTb.Size = new System.Drawing.Size(231, 29);
-            this.passwordTb.TabIndex = 15;
+            this.passwordTb.TabIndex = 0;
             this.passwordTb.UseSystemPasswordChar = true;
             // 
             // pictureBox2
@@ -132,6 +132,7 @@
             // 
             // Admin_Login
             // 
+            this.AcceptButton = this.loginBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

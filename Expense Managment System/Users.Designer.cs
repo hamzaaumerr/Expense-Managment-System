@@ -88,7 +88,7 @@
             this.logoutLbl.Location = new System.Drawing.Point(627, 27);
             this.logoutLbl.Name = "logoutLbl";
             this.logoutLbl.Size = new System.Drawing.Size(71, 21);
-            this.logoutLbl.TabIndex = 17;
+            this.logoutLbl.TabIndex = 7;
             this.logoutLbl.Text = "LOGOUT";
             this.logoutLbl.Click += new System.EventHandler(this.logoutLbl_Click);
             // 
@@ -111,7 +111,7 @@
             this.label4.Location = new System.Drawing.Point(424, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(133, 21);
-            this.label4.TabIndex = 31;
+            this.label4.TabIndex = 6;
             this.label4.Text = "View All Expenses";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -144,7 +144,7 @@
             this.addBtn.Location = new System.Drawing.Point(356, 223);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(103, 31);
-            this.addBtn.TabIndex = 29;
+            this.addBtn.TabIndex = 5;
             this.addBtn.Text = "Add User";
             this.addBtn.UseVisualStyleBackColor = false;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
@@ -167,7 +167,7 @@
             this.addressTb.Multiline = true;
             this.addressTb.Name = "addressTb";
             this.addressTb.Size = new System.Drawing.Size(261, 90);
-            this.addressTb.TabIndex = 27;
+            this.addressTb.TabIndex = 4;
             // 
             // dobDtp
             // 
@@ -177,7 +177,7 @@
             this.dobDtp.Location = new System.Drawing.Point(511, 72);
             this.dobDtp.Name = "dobDtp";
             this.dobDtp.Size = new System.Drawing.Size(261, 29);
-            this.dobDtp.TabIndex = 26;
+            this.dobDtp.TabIndex = 3;
             // 
             // label5
             // 
@@ -218,7 +218,7 @@
             this.phoneTb.Location = new System.Drawing.Point(158, 134);
             this.phoneTb.Name = "phoneTb";
             this.phoneTb.Size = new System.Drawing.Size(170, 29);
-            this.phoneTb.TabIndex = 20;
+            this.phoneTb.TabIndex = 1;
             // 
             // nameTb
             // 
@@ -226,7 +226,7 @@
             this.nameTb.Location = new System.Drawing.Point(158, 75);
             this.nameTb.Name = "nameTb";
             this.nameTb.Size = new System.Drawing.Size(170, 29);
-            this.nameTb.TabIndex = 19;
+            this.nameTb.TabIndex = 0;
             // 
             // usersDgv
             // 
@@ -256,10 +256,11 @@
             this.passTb.Location = new System.Drawing.Point(158, 195);
             this.passTb.Name = "passTb";
             this.passTb.Size = new System.Drawing.Size(170, 29);
-            this.passTb.TabIndex = 32;
+            this.passTb.TabIndex = 2;
             // 
             // Users
             // 
+            this.AcceptButton = this.addBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

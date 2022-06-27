@@ -245,7 +245,7 @@
             this.exCatCb.Location = new System.Drawing.Point(12, 110);
             this.exCatCb.Name = "exCatCb";
             this.exCatCb.Size = new System.Drawing.Size(170, 29);
-            this.exCatCb.TabIndex = 35;
+            this.exCatCb.TabIndex = 0;
             this.exCatCb.SelectionChangeCommitted += new System.EventHandler(this.exCatCb_SelectionChangeCommitted);
             // 
             // label15
