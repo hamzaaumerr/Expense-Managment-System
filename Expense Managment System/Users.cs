@@ -87,5 +87,10 @@ namespace WinFormsApp1
             login.Show();
             this.Close();
         }
+
+        private void dobDtp_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

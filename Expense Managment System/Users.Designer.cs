@@ -178,6 +178,7 @@
             this.dobDtp.Name = "dobDtp";
             this.dobDtp.Size = new System.Drawing.Size(261, 29);
             this.dobDtp.TabIndex = 3;
+            this.dobDtp.Value = new System.DateTime(2022, 7, 6, 14, 14, 30, 0);
             // 
             // label5
             // 
